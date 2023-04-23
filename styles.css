@@ -1,0 +1,20 @@
+.body {
+    margin: 0;
+    background: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0px;
+    padding: 0px;
+}
