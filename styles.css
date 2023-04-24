@@ -39,8 +39,9 @@ button.signup {
   font-size: 18px;
   color: white;
   border: 1px solid #3882f6;
-  width: 80px;
-  height: 50px;
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
 }
 
 .hero-photo {
@@ -57,6 +58,8 @@ ul {
 .left, .right {
     display: flex;
     gap: 16px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .left {
@@ -77,4 +80,49 @@ a {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 8px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info-photo{
+  border-radius: 30px;
+  border: 2px solid #3882f6;
+}
+
+.info {
+  max-width: 200px;
+  text-align: center;
+}
+
+.quote {
+  background: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1F2937;
+  text-align: center;
+}
+
+.quote-author{
+  font: bold;
+  color: #1F2937;
+  text-align: right;
 }
